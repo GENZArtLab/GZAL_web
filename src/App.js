@@ -44,7 +44,7 @@ function App() {
     if(account && chainId !== 1) {
       changeNetwork()
     }
-  }, [chainId, account])
+  }, [chainId, account]) //eslint-disable-line
 
   return (
     <div className="app">
