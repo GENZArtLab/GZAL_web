@@ -54,6 +54,30 @@ function App() {
       </div>
       <header>
         <div className='title'>GENZArtLab</div>
+        <a
+          className='social-link'
+          href="https://discord.gg/JPz5EEGe"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="images/discord-icon.svg" alt="Discord" />
+        </a>
+        <a
+          className='social-link'
+          href="https://twitter.com/GENZArtLab"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="images/twitter-svg.svg" alt="Twitter" />
+        </a>
+        <a
+          className='social-link'
+          href="https://www.instagram.com/genzartlab/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="images/instagram-svg.svg" alt="Instagram" />
+        </a>
         <button onClick={handleConnect}>
           {
             account ? shortenAddress(account) : "CONNECT"
